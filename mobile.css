@@ -1,0 +1,182 @@
+html, body {
+    /*width: 100%*/
+  }
+  
+.support-map .container {
+    display: flex;
+    /*flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;*/
+  }
+
+.support-map-container {
+    flex-grow: 1;
+}
+  
+.support-map svg {
+    max-width: 100%!important;
+    height: auto;
+    display: block;
+    /*margin: auto;
+    margin-left: -8px;*/
+  }
+  
+.support-map .enabled {
+    cursor: pointer;
+}
+
+.support-map .activated {
+    font-size: 10px;
+}
+
+.support-map .state {
+    fill:#b3b3b3;
+}
+
+.support-map .borders {
+    stroke:#FFFFFF; 
+    stroke-width:2;
+}
+
+.support-map .dccircle {
+    display: yes;
+}
+
+.support-map .dropdown {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.support-map .dropdown-menu {
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#ALABAMA, #ALASKA, #ARIZONA, #ARKANSAS, #CALIFORNIA, #COLORADO, #CONNECTICUT, #DELAWARE, #FLORIDA, #GEORGIA, #HAWAII, #IDAHO, 
+#ILLINOIS, #INDIANA, #IOWA, #KANSAS, #KENTUCKY, #LOUISIANA, #MAINE, #MARYLAND, #MASSACHUSETTS, #MICHIGAN, #MINNESOTA, 
+#MISSISSIPPI, #MISSOURI, #MONTANA, #NEBRASKA, #NEVADA, #NEWHAMPSHIRE, #NEWJERSEY, #NEWMEXICO, #NEWYORK, #NORTHCAROLINA,  
+#NORTHDAKOTA, #OHIO, #OKLAHOMA, #OREGON, #PENNSYLVANIA, #RHODEISLAND, #SOUTHCAROLINA, #SOUTHDAKOTA, #TENNESSEE, #TEXAS,  
+#UTAH, #VERMONT, #VIRGINIA, #WASHINGTON, #WESTVIRGINIA, #WISCONSIN, #WYOMING {
+    fill: #b3b3b3;
+  }
+
+#ALABAMA:hover, #ALASKA:hover, #ARIZONA:hover, #ARKANSAS:hover, #CALIFORNIA:hover, #COLORADO:hover, #CONNECTICUT:hover, #DELAWARE:hover, #FLORIDA:hover, #GEORGIA:hover, #HAWAII:hover, #IDAHO:hover, 
+#ILLINOIS:hover, #INDIANA:hover, #IOWA:hover, #KANSAS:hover, #KENTUCKY:hover, #LOUISIANA:hover, #MAINE:hover, #MARYLAND:hover, #MASSACHUSETTS:hover, #MICHIGAN:hover, #MINNESOTA:hover, 
+#MISSISSIPPI:hover, #MISSOURI:hover, #MONTANA:hover, #NEBRASKA:hover, #NEVADA:hover, #NEWHAMPSHIRE:hover, #NEWJERSEY:hover, #NEWMEXICO:hover, #NEWYORK:hover, #NORTHCAROLINA:hover, 
+#NORTHDAKOTA:hover, #OHIO:hover, #OKLAHOMA:hover, #OREGON:hover, #PENNSYLVANIA:hover, #RHODEISLAND:hover, #SOUTHCAROLINA:hover, #SOUTHDAKOTA:hover, #TENNESSEE:hover, #TEXAS:hover, 
+#UTAH:hover, #VERMONT:hover, #VIRGINIA:hover, #WASHINGTON:hover, #WESTVIRGINIA:hover, #WISCONSIN:hover, #WYOMING:hover {
+    fill: #4d79ff;
+}
+
+.support-map .mobileHide {
+    display: none;
+}
+
+.support-map .description {
+    display: none;
+}
+
+.support-map .mobileContainer {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: #d24940;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -3px;
+    margin-right: 15px;
+    flex-direction: column;*/
+    padding: 15px;
+    /*width: 92%;*/
+}
+
+.support-map .mobile-heading-1 {
+    font-size: 8vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.support-map .mobile-heading-2 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.support-map .mobile-body-2 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.support-map .mobile-heading-3 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.support-map .mobile-body-3 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.support-map hr.solid {
+    height: 3px;
+    width: 65%;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 1vh;
+}
+
+.support-map .spacer {
+    margin-top: 12px;
+}
+
+.support-map .right {
+    width: 100%;
+}
+
+.support-map .refreshButton {
+    margin-top: 5px;   
+  }
+  
+.support-map .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-map .refreshDiv {
+    margin-bottom: 5px;
+    pointer-events: all;
+  opacity: 1;
+  transition: opacity .3s linear;
+  will-change: opacity;
+}
+
+.support-map .refreshDiv.hide {
+    opacity:  0;
+    pointer-events: none;
+}
+
+.support-map .button {
+    color: white;
+    background-color: #d84541;
+    width: 250px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    border: none;
+    
+  }

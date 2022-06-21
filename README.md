@@ -1,2 +1,2 @@
-# SVG-Map
-SVG Map with Pan, Scroll &amp; Zoom Functions
+# svg-map
+Responsive SVG Map
